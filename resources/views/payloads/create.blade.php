@@ -85,6 +85,12 @@
                         <input type="radio" name="content_type" id="content_block" value="blocks" {{ old('content_type') == 'blocks' ? 'checked' : ''}}>
                         Block content
                     </label>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="content_type" id="content_block" value="attachments" {{ old('content_type') == 'attachments' ? 'checked' : ''}}>
+                            Attachment content
+                        </label>
+                    </div>
                 </div>
             </div>
         </div>

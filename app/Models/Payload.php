@@ -11,7 +11,8 @@ class Payload extends Model
 
     const TYPE_TEXT = 'text';
     const TYPE_BLOCKS = 'blocks';
-    const TYPE = ['text', 'blocks'];
+    const TYPE_ATTACHMENT = 'attachments';
+    const TYPE = ['text', 'blocks', 'attachments'];
 
     protected $fillable = [
         'webhook_id',
